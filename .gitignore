@@ -1,0 +1,29 @@
+# Ignore logs, checkpoints and runtime artifacts
+logs/
+**/checkpoints/
+**/checkpoints/*
+
+# Virtual env
+uv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset / large binaries
+*.pth
+*.pt
+*.npy
+*.npz
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
